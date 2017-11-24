@@ -1,0 +1,244 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+#header_z {
+  width: 100%;
+  height: 155px;
+  background: #070707; }
+  #header_z .mar_z {
+    width: 1198px;
+    height: 155px;
+    margin: 0 auto;
+    position: relative;
+    background: #070707;
+    color: white; }
+    #header_z .mar_z #nav {
+      width: 126px;
+      height: 155px;
+      margin-left: 132px; }
+      #header_z .mar_z #nav .logo_z {
+        width: 78px;
+        height: 88px;
+        margin: 18px 23px 15px 26px; }
+      #header_z .mar_z #nav .logo_p_z {
+        width: 126px;
+        height: 16px;
+        margin-bottom: 14px;
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center; }
+    #header_z .mar_z .logo_z_z {
+      width: 289px;
+      height: 26px;
+      position: absolute;
+      top: 65px;
+      left: 455px; }
+
+.nav-lsb {
+  width: 100%;
+  height: 620px;
+  margin: 0 auto; }
+  .nav-lsb .banner-lsb {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden; }
+    .nav-lsb .banner-lsb .img-lsb {
+      width: 100%;
+      height: 600px; }
+      .nav-lsb .banner-lsb .img-lsb li {
+        position: absolute;
+        width: 100%;
+        height: 600px; }
+        .nav-lsb .banner-lsb .img-lsb li img {
+          width: 100%;
+          height: 600px; }
+    .nav-lsb .banner-lsb .text-lsb {
+      position: absolute;
+      z-index: 8;
+      bottom: 0;
+      width: 100%;
+      height: 420px;
+      background: rgba(255, 255, 255, 0.5); }
+      .nav-lsb .banner-lsb .text-lsb .text {
+        position: relative;
+        width: 1000px;
+        height: 420px;
+        margin: 0 auto; }
+        .nav-lsb .banner-lsb .text-lsb .text h2 {
+          margin: 18px 0;
+          font-size: 28px;
+          color: #443240; }
+        .nav-lsb .banner-lsb .text-lsb .text p {
+          margin-bottom: 15px;
+          color: #443240; }
+        .nav-lsb .banner-lsb .text-lsb .text img {
+          position: absolute;
+          top: 42px;
+          right: 0;
+          width: 36px;
+          height: 36px;
+          background: pink;
+          border-radius: 50%; }
+        .nav-lsb .banner-lsb .text-lsb .text .up {
+          display: none; }
+        .nav-lsb .banner-lsb .text-lsb .text ul {
+          width: 984px;
+          margin: 0 auto; }
+          .nav-lsb .banner-lsb .text-lsb .text ul li {
+            float: left;
+            width: 142px;
+            height: 142px;
+            border-radius: 50%;
+            border: 10px solid gray;
+            background: gray;
+            margin-right: 68px;
+            text-align: center;
+            line-height: 122px;
+            opacity: .7; }
+            .nav-lsb .banner-lsb .text-lsb .text ul li a {
+              display: block;
+              color: white;
+              text-decoration: none; }
+          .nav-lsb .banner-lsb .text-lsb .text ul li:nth-of-type(5) {
+            margin-right: 0; }
+  .nav-lsb .btn-lsb {
+    width: 100%;
+    height: 20px;
+    background: #070707; }
+
+.ol-lsb {
+  width: 90px;
+  margin: 0 auto;
+  padding-top: 3px; }
+  .ol-lsb li:nth-of-type(5) {
+    margin-right: 0; }
+
+.ol-li-lsb {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+  background: #443240;
+  border-radius: 50%; }
+
+.active-lsb {
+  background: #DE9158; }
+
+.tibet-lsb {
+  width: 100%;
+  height: 860px;
+  background: #271C25;
+  border: 1px solid #271C25; }
+  .tibet-lsb .tibet-main {
+    width: 1024px;
+    height: 860px;
+    margin: 0 auto; }
+    .tibet-lsb .tibet-main .tibet-biaoti {
+      overflow: hidden;
+      margin: 54px 0 65px 44px; }
+      .tibet-lsb .tibet-main .tibet-biaoti h3 {
+        font-size: 20px;
+        float: left;
+        color: white; }
+      .tibet-lsb .tibet-main .tibet-biaoti span {
+        font-size: 14px;
+        float: left;
+        color: white;
+        vertical-align: bottom;
+        margin-top: 8px; }
+    .tibet-lsb .tibet-main .tibet-banner {
+      position: relative;
+      margin: 0 auto;
+      width: 882px;
+      height: 522px;
+      margin-bottom: 22px; }
+      .tibet-lsb .tibet-main .tibet-banner img {
+        position: absolute;
+        width: 882px;
+        height: 522px; }
+    .tibet-lsb .tibet-main .tibet-tab {
+      position: relative;
+      margin: 0 auto;
+      width: 882px;
+      height: 114px; }
+      .tibet-lsb .tibet-main .tibet-tab .zuo {
+        left: 0;
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 26px;
+        height: 30px; }
+      .tibet-lsb .tibet-main .tibet-tab .you {
+        right: 0;
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        width: 26px;
+        height: 30px; }
+      .tibet-lsb .tibet-main .tibet-tab ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -56.5px;
+        margin-left: -352.5px;
+        width: 705px;
+        height: 113px; }
+        .tibet-lsb .tibet-main .tibet-tab ul li {
+          float: left;
+          width: 158px;
+          height: 113px;
+          border: 3px solid black;
+          margin-right: 24.3px;
+          overflow: hidden;
+          border-radius: 5px; }
+          .tibet-lsb .tibet-main .tibet-tab ul li img {
+            width: 158px;
+            height: 113px; }
+        .tibet-lsb .tibet-main .tibet-tab ul li:nth-of-type(4) {
+          margin-right: 0; }
+
+.active-tibet {
+  border-color: darkgoldenrod !important; }
+
+#foot_z {
+  width: 100%;
+  height: 130px;
+  position: inherit;
+  bottom: 0;
+  background: #070707; }
+  #foot_z .foot_n_z {
+    width: 1198px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center; }
+    #foot_z .foot_n_z a {
+      color: #fdfdfb; }
+    #foot_z .foot_n_z .foot_p_z {
+      font-size: 12px;
+      font-family: 宋体;
+      color: #fdfdfb;
+      text-align: center; }
+      #foot_z .foot_n_z .foot_p_z span {
+        margin: 0 5px; }
+    #foot_z .foot_n_z .foot_mat_z {
+      width: 504px;
+      margin: 0 auto;
+      padding-top: 35px; }
+    #foot_z .foot_n_z .foot_mam_z {
+      width: 534px;
+      margin: 12px auto; }
+    #foot_z .foot_n_z .foot_mab_z {
+      width: 216px;
+      margin: 0 auto;
+      margin-bottom: 30px; }
+
+/*# sourceMappingURL=index.css.map */
